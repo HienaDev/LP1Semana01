@@ -37,6 +37,18 @@ namespace TiposVarios
             Console.WriteLine(caracter3);
             Console.WriteLine(caracter4);
             Console.WriteLine(caracter5);
+
+            float real1 = 4.5f;
+            float real2 = 4.234f;
+            double real3 = 10.45237;
+            double real4 = 9.12387;
+            decimal real5 = 2.1287368172638123m;
+
+            Console.WriteLine(real1);
+            Console.WriteLine(real2);
+            Console.WriteLine(real3);
+            Console.WriteLine(real4);
+            Console.WriteLine(real5);
         }
     }
 }
