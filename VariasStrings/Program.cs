@@ -12,10 +12,12 @@ namespace VariasStrings
         // arguments from the cmd line
         static void Main(string[] args)
         {
-
             // This line allows for more complex characters to be displayed
             // on the cmd line
             Console.OutputEncoding = Encoding.UTF8;
+
+            double xx = 0.12345;
+            int ii = 18;
 
             string frase_normal = "\"\u2605 Hello\tWorld! \u2605\"";
             string frase_verbatim = @"""\u2605 Hello\tWorld! \u2605""";
@@ -28,6 +30,55 @@ namespace VariasStrings
             Console.WriteLine(frase_emoji);
             Console.WriteLine(frase_whitespaces);
             Console.WriteLine(frase_whitespaces_verbatim);
+
+            Console.WriteLine("\n");
+
+            int x = 123;
+            int y = 42;
+
+            string frase_conc = "Hello" + " " + "World!" + " 123";
+            string frase_conc_num = "Hello" + " " + "World!" + " " + 123;
+            string frase_conc_var = "Hello" + " " + "World!" + " " + x;
+            string frase_interpol = $"Hello World! {x}";
+            string frase_interpol_sum = $"Hello World! {x} + {y} = {x + y}";
+            string frase_interpol_mul = $"Hello World! {x} * {y} = {x * y}";
+
+            Console.WriteLine(frase_conc);
+            Console.WriteLine(frase_conc_num);
+            Console.WriteLine(frase_conc_var);
+            Console.WriteLine(frase_interpol);
+            Console.WriteLine(frase_interpol_sum);
+            Console.WriteLine(frase_interpol_mul);
+
+            Console.WriteLine("\n");
+
+            string frase_format = String.Format("Hello {0} No. {1}!", 
+                                                    "World", 3);
+            string frase_format2 = String.Format("Hello{0} {1}{2} {3}!", 
+                                    ",", "Good Morning", "!","How you doing?");
+            string frase_format3 = String.Format("Hi, {0} * {1} = {2}", x, y, 
+                                                                        x * y);
+
+            Console.WriteLine(frase_format);
+            Console.WriteLine(frase_format2);
+            Console.WriteLine(frase_format3);
+            Console.WriteLine("Bye\tWorld\t! x = {0}, y = {1}", x, y);
+            Console.WriteLine(@"Bye\tWorld\t! x = {0}, y = {1}", x, y);
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine(" .{0,4:x}. e .{1,-4:x}.", 456, 123);
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+
+            Console.WriteLine("\n");
+
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
+
         }
     }
 }
