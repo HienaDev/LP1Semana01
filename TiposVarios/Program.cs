@@ -49,6 +49,12 @@ namespace TiposVarios
             Console.WriteLine(real3);
             Console.WriteLine(real4);
             Console.WriteLine(real5);
+
+            bool verdade = true;
+            bool falso = false;
+
+            Console.WriteLine(verdade);
+            Console.WriteLine(falso);
         }
     }
 }
