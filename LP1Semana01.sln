@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposVarios", "TiposVarios\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariasStrings", "VariasStrings\VariasStrings.csproj", "{EEC48FE1-26E4-4F14-9ED2-304CF16E9F17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgLongStrings", "ArgLongStrings\ArgLongStrings.csproj", "{189A45A7-243F-43E8-AFE0-1D71D48B07EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{EEC48FE1-26E4-4F14-9ED2-304CF16E9F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC48FE1-26E4-4F14-9ED2-304CF16E9F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC48FE1-26E4-4F14-9ED2-304CF16E9F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189A45A7-243F-43E8-AFE0-1D71D48B07EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189A45A7-243F-43E8-AFE0-1D71D48B07EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189A45A7-243F-43E8-AFE0-1D71D48B07EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189A45A7-243F-43E8-AFE0-1D71D48B07EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
