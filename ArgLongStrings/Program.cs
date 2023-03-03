@@ -7,8 +7,13 @@ namespace ArgLongStrings
     // Name of the class
     class Program
     {
-        // Name of the function and arguments it receives, main receives
-        // arguments from the cmd line
+        
+
+        /// <summary>
+        /// Name of the function and arguments it receives, main receives
+        /// arguments from the cmd line
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             for (int i = 0; i < args.Length; i++)
