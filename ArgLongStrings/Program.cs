@@ -8,10 +8,11 @@ namespace ArgLongStrings
     class Program
     {
         
-
         /// <summary>
         /// Name of the function and arguments it receives, main receives
-        /// arguments from the cmd line
+        /// arguments from the cmd line, we then check what arguments are 
+        /// longer then 4 letter and then print those arguments to the console
+        /// in upper case.
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)

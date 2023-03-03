@@ -7,8 +7,12 @@ namespace OlaMundo
     // Name of the class
     class Program
     {
-        // Name of the function and arguments it receives, main receives
-        // arguments from the cmd line
+        /// <summary>
+        /// Name of the function and arguments it receives, main receives
+        /// arguments from the cmd line.This program just writes "Hello, World!"
+        /// and "Bye world" to the console screen
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //Prints these phrases to the terminal
